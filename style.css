@@ -1,0 +1,171 @@
+/* Menu principal */
+nav {
+    background: #4177ed;
+    width: 100%; 
+    height: 10%; 
+    display: flex;
+    align-items: center;
+} 
+.logo {   
+    margin-left: 2%;
+    width: 3%;  
+}
+.contMenu { 
+    margin-top: 0px;
+    width:90%; 
+    display: flex;
+    align-items: center;  
+    float: right;
+}
+
+.titulo {
+    width: 50%;
+    margin-left: 1%; 
+    float: left;
+}
+
+.opciones { 
+    width: 50%;  
+    margin-right: 2%;  
+}
+
+.opciones input{ 
+    background-color: Transparent;
+    border: none; 
+    margin-left: 1.5%; 
+    margin-right: 1.5%;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+
+
+/* pie de pagina  */
+footer {
+    background: #4177ed;
+    width: 100%;   
+    height: 14%; 
+    margin-bottom: 2px;
+}  
+.redes {
+    text-align: center;
+    width: 100%; 
+}
+.fab {
+    margin-top: 0.5%;
+    margin-left: 1%;
+    margin-right: 1%; 
+    font-size: 27px;
+}
+.red {
+    height: 78%; 
+    display:inline;
+}
+.copyright {
+    text-align: center;
+}
+.nombre { 
+    margin-top: 0.5%;
+    display:inline;
+    font-size: 21px;
+}
+
+
+
+
+/* Contenidos */
+.contenedor{ 
+    background-color: #627eb9; 
+    width: 100; 
+    height: 82.5vh;
+}
+.menu {  
+    height: 100%;
+    width: 20%;
+    float: right;  
+}
+.imgMenu{
+    text-align: center;
+    width: 98%; 
+} 
+.logoMenu{
+    width: 100%;
+}
+.navegacion {  
+   margin-left: 5%;
+    margin-top:10%;
+    font-size: 17px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.contenido { 
+ width: 80%; 
+ height: 83vh;
+ overflow: scroll;
+} 
+.temas{ 
+    background-color: rgb(166, 241, 248);
+    text-align: center;
+    height: 100%; 
+} 
+.subtitulo{
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 100%;
+}
+.imagen {
+    height: 220px;
+    border-radius: 50px; 
+} 
+.text {
+    margin-left: 2%;
+    margin-right: 2%;
+    text-align: justify;
+}
+
+.imagenJuego {
+    width: 82%;  
+}
+.foto { 
+    float: left; 
+    width: 31%;
+}
+.actividad { 
+    width: 69%; 
+    float: left;
+}
+ .juego { 
+    width: 100%;
+    height: 25em; 
+}  
+.operacion p{  
+    display:inline;
+} 
+.ingreseNumero{
+    width: 32px;
+}
+/* #resultado {
+    width: 60px;
+} */
+.operacion{
+    text-align: center;
+    width: 70%;
+}
+.left {
+    width: 30%;
+    float: left;
+    text-align: left;
+    margin-left: 3%;
+} 
+.fas {
+    font-size: 40px;
+}
+
+.contenidoInicio {
+    width: 100%; 
+    height: 83vh;
+    background-color: rgb(166, 241, 248);
+    text-align: center;
+    overflow: scroll;
+}

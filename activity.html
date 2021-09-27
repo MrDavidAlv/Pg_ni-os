@@ -1,0 +1,146 @@
+<link rel="stylesheet" type="text/css" href="style.css" media="screen">
+
+<div class="menu">
+    <p class="subtitulo">Jugar aprendiendo</p>
+    <div class="imgMenu">
+        <img src="./img/juego.gif" alt="niños jugando" class="logoMenu">
+    </div>
+    <div class="navegacion">
+        <a href="#letras">Sopa de letras</a> <br><br>
+        <a href="#matematicas">Matemáticas </a> <br><br>
+        <a href="#ciencia">Ciencia y tecnología</a> <br><br>
+        <a href="#historia">Historia</a> <br><br> 
+    </div>
+</div>
+
+<div class="contenido">  
+    <div class="temas">     
+        <div  class="juego" id="letras">
+            <div class="subtitulo">Sopa de letras</div><br>
+            <div> 
+                <div class="foto">
+                    <img src="./img/sopa de letras.jpg" alt="Sopa de letras" class="imagenJuego">
+                </div><br><br>
+                <div class="actividad">
+                    <h4>Encuentra las palabras en ingles de los 6 animales de la imagen</h4>
+                    <p>Número de parabras encontradas</p>
+                    <h2>0</h2>
+                    <input type="text">
+                    <button>Verificar</button>
+                </div>
+            </div>
+        </div>   
+
+
+        <div  class="juego" id="matematicas">
+            <div class="subtitulo">Operaciones matemáticas</div><br>
+            <div>
+                <div class="foto">
+                    <img src="./img/numeros.gif" alt="Sopa de letras" class="imagenJuego">
+                </div> 
+                <div class="actividad"> 
+                    <p class="left"><strong>Suma</strong></p> <br>
+                    <div class="operacion"> 
+                        <p><strong>5 + 6 = </strong></p>
+                        <p><input type="number" id="suma" class="ingreseNumero"></p> 
+                        <p><button id="resultado">verificar</button></p>
+                    </div> <br>
+
+                    <p class="left"><strong>Resta</strong></p> <br>
+                    <div class="operacion">
+                        <p><strong>12 - 3 = </strong></p>
+                        <p><input type="number" id="resta" class="ingreseNumero"></p> 
+                        <p><button id="resultado">verificar</button></p>
+                    </div> <br>
+                    
+                    <p class="left"><strong>Multiplicación</strong></p> <br>
+                    <div class="operacion">
+                        <p><strong>4 * 2 = </strong></p>
+                        <p><input type="number" id="multiplicacion" class="ingreseNumero"></p> 
+                        <p><button id="resultado">verificar</button></p>
+                    </div> <br>
+                    
+                    <p class="left"><strong>Divisón</strong></p> <br>
+                    <div class="operacion">
+                        <p><strong>10 / 2 = </strong></p>
+                        <p><input type="number" id="divison" class="ingreseNumero"></p> 
+                        <p><button id="resultado">verificar</button></p>
+                    </div>
+                </div>
+            </div>
+        </div> 
+         
+
+        <div  class="juego" id="ciencia">
+            <div class="subtitulo">Sistema solar</div><br> 
+            <div>
+                <div class="foto">
+                    <img src="./img/sistema.gif" alt="Sopa de letras" class="imagenJuego">
+                </div>  
+                <div class="actividad"> 
+                    <div >
+                        <p >¿Cuál es el planeta más grande del sistema solar?</p> 
+                        <select name="planetas" id="planeta"> 
+                            <option value="">Seleccione</option>
+                            <option value="tierra">Tierra</option>
+                            <option value="venus">Venus</option>
+                            <option value="jupiter">Jupiter</option>
+                            <option value="marte">Marte</option>
+                        </select> 
+
+                        <p >¿Cómo se llama nuestra galaxia?</p> 
+                        <select name="galaxia" id="galaxia"> 
+                            <option value="">Seleccione</option>
+                            <option value="lactea">Via Láctea</option>
+                            <option value="andromeda">Andrómeda</option>
+                            <option value="bernard">Bernard</option>
+                            <option value="bode">Bode</option>
+                        </select> 
+
+                        <p >¿Cuántos planetas tiene el sistema solar?</p> 
+                        <select name="numeroPlanetas" id="numeroPlanetas"> 
+                            <option value="">Seleccione</option>
+                            <option value="5">5</option>
+                            <option value="1">1</option>
+                            <option value="12">12</option>
+                            <option value="8">8</option>
+                        </select> 
+                    </div>
+                </div>
+            </div>
+        </div> 
+         
+        
+        <div  class="juego" id="historia">
+            <br> <br> <br>
+            <div class="subtitulo">Historia</div><br>
+            <div>
+                <div class="foto">
+                    <img src="./img/historia.gif" alt="Sopa de letras" class="imagenJuego">
+                </div> 
+                <div class="actividad">
+                    <p >¿Dónde se localizaba el Imperio Inca?</p> 
+                    <select name="inca" id="inca"> 
+                        <option value="">Seleccione</option>
+                        <option value="colombia">Colombia</option>
+                        <option value="venezuela">Venezuela</option>
+                        <option value="peru">Peru</option>
+                        <option value="mexico">México</option>
+                    </select> 
+
+                    <p >¿En qué continente se considera que surgió el hombre moderno u Homo sapiens sapiens?</p> 
+                    <select name="homo" id="homo"> 
+                        <option value="">Seleccione</option>
+                        <option value="america">America</option>
+                        <option value="asia">Asia</option>
+                        <option value="europa">Europa</option>
+                        <option value="africa">Africa</option>
+                    </select> 
+
+                </div>
+            </div>
+        </div>  
+
+
+    </div>
+</div>

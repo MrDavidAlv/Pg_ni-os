@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+
+    <link rel="stylesheet" type="text/css" href="style.css" media="screen"> 
+
+    <script>
+            let content =  `<iframe width="100%" height="115%" src="content.html" frameborder="0" allowfullscreen></iframe>`
+            let about = `<iframe width="100%" height="115%" src="about.html" frameborder="0" allowfullscreen></iframe>` 
+            let activity = `<iframe width="100%" height="115%" src="activity.html" frameborder="0" allowfullscreen></iframe>` 
+            let home =  `<iframe width="100%" height="115%" src="home.html" frameborder="0" allowfullscreen></iframe>` 
+            
+            let num = 1; 
+            function contenido(cont) {  
+                txt = document.getElementById("contenedor");  
+                num=cont;  
+                console.log(num)
+                if(num==1){
+                    txt.innerHTML=home;
+                }
+                if(num==2){
+                    txt.innerHTML=content;
+                }
+                if(num==3){
+                    txt.innerHTML=activity;
+                }
+                if(num==4){
+                    txt.innerHTML=about;
+                } 
+            }
+            
+        </script>
+ 
+    <title>Aprendamos</title>
+</head>
+
+<body>
+<script>
+    contenido()
+</script>
+    <div class="pagina">
+        <nav>
+            <img class="logo" src="./img/logo.PNG" alt="logo">
+            <div class="contMenu">
+                <div class="titulo">
+                    <h1>Aprendamos Juntos</h1>
+                </div>
+                <div class="opciones"> 
+                     <input type="button" onclick="contenido(1);" value="Inicio" /> 
+                     <input type="button" onclick="contenido(2);" value="Contenidos" /> 
+                     <input type="button" onclick="contenido(3);" value="Actividades" /> 
+                     <input type="button" onclick="contenido(4);" value="Ayuda" />  
+                </div>
+            </div>
+        </nav>
+
+ 
+        <div id="contenedor" class="contenedor">  
+
+        </div> 
+
+
+        <footer>
+            <div class="redes">
+                <div class="red">
+                    <a href="https://www.facebook.com/mauricio.coral.94" target="_blank">
+                        <i class="fab fa-facebook-square"></i>
+                    </a>
+                </div>
+                <div class="red">
+                    <a href="https://www.instagram.com/mauricio_coral_/?hl=es" target="_blank">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </div>
+                <div class="red">
+                    <a href="https://twitter.com/cora_mauriciio?s=08" target="_blank">
+                        <i class="fab fa-twitter-square"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="copyright">
+                <p class="nombre"> &copy; Mauricio Coral</p>
+            </div> 
+        </footer> 
+    </div>
+ 
+</body>
+
+</html>
